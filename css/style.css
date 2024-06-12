@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif
+}
+body{
+    font-family: "Poppins", sans-serif
+}
+
+.form-section{
+    width: 100%;
+    background-color: blue;
+    height: 100vh;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-box{
+    width: 900px;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.left-side,.right-side{
+    flex-basis: 50%;
+}
+.left-side{
+    background: url(../img/contact.jpg); center center no-repeat;
+    background-size: cover;
+}
+
+.right-side{
+    padding: 50px;
+}
+
+input,select,textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.name input {
+    width: 47.9%;
+}
+
+
+.name .frist-name {
+    margin-right: 10px;
+}
+
+.condition input{
+    width: auto;
+}
+
+input::placeholder,textarea{
+font-family: "Poppins", sans-serif
+
+}
+
+.gender select{
+    font-family: "Poppins", sans-serif
+}
+}
+
+.Dob input{
+    font-family: "Poppins", sans-serif
+}
+
